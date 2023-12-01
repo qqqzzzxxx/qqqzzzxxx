@@ -4,7 +4,7 @@ import pymongo
 import webbrowser
 
 # 连接到 MongoDB 数据库
-client = pymongo.MongoClient('192.168.31.23', 27017)
+client = pymongo.MongoClient('localhost', 27017)
 db = client.pythondb
 collection = db.ATop
 
